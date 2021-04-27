@@ -1,0 +1,9 @@
+@use 'variables.scss' as *;
+@media (max-width: 767px) {
+    body{
+        grid-template-rows: 45vh auto;  
+    }
+    .main{
+        margin-top: -200px;
+    }
+}

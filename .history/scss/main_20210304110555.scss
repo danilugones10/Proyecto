@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+body{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 10vh min(190vh) 20vh;  
+    background-image: url(img/sudadera_fondo.jpg);
+}
+
+// @media (max-width: 1267px) {
+//     body{
+//         display: grid;
+//         grid-template-columns: 100%;
+//         grid-template-rows: 10vh 220vh 20vh;  
+//     }
+    
+// }
+// @media (max-width: 877px) {
+//     body{
+//         display: grid;
+//         grid-template-columns: 100%;
+//         grid-template-rows: 10vh 275vh 20vh;  
+//     }
+    
+// }
+@media (max-width: 767px) {
+    body{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 40vh 305vh 20vh;  
+    }
+    .main{
+        margin-top: -200px;
+    }
+}
+@media (max-width: 517px) {
+    body{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 40vh 360vh 20vh;  
+    }
+    .main{
+        margin-top: -200px;
+    }
+}
+@import 'variables';
+@import 'header';
+@import 'body';
+@import 'footer';  

@@ -1,0 +1,8 @@
+@media (max-width: 767px) {
+    body{
+        grid-template-rows: 45vh auto 25vh;  
+    }
+    .main{
+        margin-top: -200px;
+    }
+}

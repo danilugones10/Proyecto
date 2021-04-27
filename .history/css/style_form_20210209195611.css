@@ -1,0 +1,143 @@
+.header {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.menu {
+  background-color: #85C1E9;
+  color: white;
+  height: 100%;
+}
+
+.menu__list {
+  list-style: none;
+  display: flex;
+}
+
+.menu__item {
+  padding-top: 27px;
+  padding-bottom: 26px;
+  padding-right: 30px;
+  padding-left: 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+
+.busqueda {
+  position: absolute;
+  width: 15vw;
+  right: 16%;
+  top: 25px;
+  height: 25px;
+  border-radius: 20px;
+}
+
+/* .boton_busqueda{
+    background-color: white;
+    border: 2px solid grey;
+    color: grey;
+    border-radius: 5px;
+    position: absolute;
+    right: 30%;
+    top: 23px;
+    height: 28px;
+    width: 30px;
+} */
+.inicio {
+  position: absolute;
+  top: 20px;
+  right: 15px;
+  background-color: white;
+  border: 1px solid white;
+  color: black;
+  padding: 5px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.inicio:hover {
+  background-color: #A3E4D7;
+  color: black;
+}
+
+.menu__item:hover {
+  background-color: white;
+  color: black;
+}
+
+.inicio a {
+  text-decoration: none;
+  color: black;
+}
+
+div {
+  display: flex;
+  margin-top: 20vh;
+  height: 350px;
+  justify-content: center;
+}
+
+img {
+  height: 100%;
+  width: 80px;
+  margin-right: -2px;
+}
+
+form {
+  height: 100%;
+  background-color: #363636;
+  width: 400px;
+}
+
+body {
+  background-image: url(img/sudadera_fondo.jpg);
+  background-size: 380px;
+}
+
+h1 {
+  color: aqua;
+}
+
+label {
+  color: white;
+  font-size: 18px;
+}
+
+.flex-outer {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+#first {
+  width: 215px;
+}
+
+#last {
+  width: 215px;
+}
+
+#first-name {
+  width: 200px;
+  margin: 3px;
+}
+
+#email {
+  width: 300px;
+  margin: 3px;
+}
+
+#password {
+  width: 300px;
+  margin: 3px;
+}
+
+button {
+  background-color: aqua;
+  width: 150px;
+  height: 40px;
+  color: black;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+
+/*# sourceMappingURL=style_form.css.map */
