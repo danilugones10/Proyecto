@@ -94,6 +94,10 @@ a {
 }
 
 @media (max-width: 767px) {
+  .header {
+    height: 75px;
+  }
+
   .menu {
     background-color: var(--nav);
     height: 75px;
@@ -470,6 +474,24 @@ td {
   color: var(--texto);
 }
 
+#cajilla {
+  margin: auto;
+  border: 1px solid;
+  width: 95vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.sudaderasHombre {
+  text-align: center;
+  width: 300px;
+  background-color: var(--base);
+  border: 1px solid var(--texto);
+  margin: 15px;
+  padding: 5px;
+}
+
 .carrouselMujer {
   max-width: 500px;
   margin: auto;
@@ -502,7 +524,7 @@ td {
 body {
   display: grid;
   grid-template-columns: 100%;
-  grid-template-rows: 100px auto 200px;
+  grid-template-rows: 75px auto 200px;
   background-image: url(img/sudadera_fondo.jpg);
 }
 
