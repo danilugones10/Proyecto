@@ -476,6 +476,10 @@ td {
 
 #cajilla {
   margin: auto;
+<<<<<<< HEAD
+=======
+  border: 1px solid;
+>>>>>>> c8e0d354ad04da0771a45ec0133ff729fc2044d6
   width: 95vw;
   display: flex;
   flex-wrap: wrap;
