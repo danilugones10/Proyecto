@@ -72,6 +72,9 @@ a{
     }
 }
 @media (max-width: 767px) {
+    .header{
+        height: 75px;
+    }
     .menu{
         background-color: var(--nav);
         height: 75px;
