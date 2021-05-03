@@ -13,16 +13,29 @@ fetch('http://localhost:8080/producto/2')
             const cuerpo =document.createElement('p')
             const img=document.createElement('img')
             const precio=document.createElement('p')
+<<<<<<< HEAD
+=======
+            const boton =document.createElement('button')
+>>>>>>> ff57c5604d1b7b8b75343c1e0ee3b2e1d3ad75e1
             cabezera.textContent = `${data[i].nombre_producto}`
             img.src= `${data[i].imagen}`
             precio.textContent=`${data[i].precio}€`
             cuerpo.textContent=`${data[i].marca} - ${data[i].color}`
+<<<<<<< HEAD
+=======
+            boton.id=`boton ${data[i].id_producto}`;boton.className="btn btn-primary"
+            boton.textContent="Añadir"
+>>>>>>> ff57c5604d1b7b8b75343c1e0ee3b2e1d3ad75e1
             div.className="sudaderasMujer"
             div.id=`ficha ${data[i].id_producto}`
             div.appendChild(cabezera)
             div.appendChild(cuerpo)
             div.appendChild(img)
             div.appendChild(precio)
+<<<<<<< HEAD
+=======
+            div.appendChild(boton)
+>>>>>>> ff57c5604d1b7b8b75343c1e0ee3b2e1d3ad75e1
             fragment.appendChild(div)
         }
         caja.appendChild(fragment)
