@@ -29,20 +29,16 @@ a{
     text-decoration: none;
     color: var(--texto);
 }
-.busqueda{
-    display: none;
+.carrito{
     position: absolute;
-    width: 20%;
-    right: 185px;
-    top: 25px;
+    right: 15px;
+    top: 20px;
     height: 25px;
-    border-radius: 10px;
-    outline: none;
 }
 .inicio{
     position: absolute;
     top: 20px;
-    right: 35px;
+    right: 55px;
     background-color: var(--base);
     border: 1px solid white;
     padding: 5px;
@@ -72,6 +68,9 @@ a{
     }
 }
 @media (max-width: 767px) {
+    .header{
+        height: 75px;
+    }
     .menu{
         background-color: var(--nav);
         height: 75px;
@@ -91,12 +90,10 @@ a{
     .menu__item:hover{
         width: 100px;
     }
-    .busqueda{
-        display: block;
+    .carrito{
         position: absolute;
-        width: 35%;
         right: 200px;
-        top: 25px;
+        top: 21px;
         height: 25px;
         border-radius: 20px;
     }
