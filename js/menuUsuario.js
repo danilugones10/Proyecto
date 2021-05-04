@@ -7,7 +7,11 @@ const fragment=document.createDocumentFragment();
 
 const bot=document.createElement('div');
 bot.id="oscuro";
+<<<<<<< HEAD
 bot.className="";
+=======
+bot.className=""
+>>>>>>> dde1f623f7ab0cfe0e911323a11b773b5fc78fed
 bot.innerHTML='<i class="bi bi-toggle-on"></i>';
 nav.appendChild(bot);
 
@@ -62,12 +66,18 @@ li6.appendChild(button6);
 fragment.appendChild(button6);
 
 const li5=document.createElement('div');
+<<<<<<< HEAD
 const a5=document.createElement('a');
 a5.innerHTML='<i class="bi bi-bag"></i>';
 li5.className="carrito";
 li5.id="carrito";
 a5.href="carrito.html";
 li5.appendChild(a5);
+=======
+li5.innerHTML='<i class="bi bi-bag"></i>';
+li5.className="carrito";
+li5.id="carrito";
+>>>>>>> dde1f623f7ab0cfe0e911323a11b773b5fc78fed
 fragment.appendChild(li5);
 
 const hamb=document.createElement('label');

@@ -9,6 +9,7 @@ const edad=document.getElementById('inputEdad');
 const rol=document.getElementById('inputRol');
 const botons=document.getElementById('formBoton');
 
+<<<<<<< HEAD
 function setCookie(cname, cvalue, exdays) {
     var d = new Date();
     d.setTime(d.getTime() + (exdays*24*60*60*1000));
@@ -16,6 +17,8 @@ function setCookie(cname, cvalue, exdays) {
     document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
 }
 
+=======
+>>>>>>> dde1f623f7ab0cfe0e911323a11b773b5fc78fed
 const formIsValidd = {
     email: false,
     password: false,
@@ -93,7 +96,11 @@ const validateForm = () => {
             .then(res => res.json())
             .then(res=> {
                 console.log(res);
+<<<<<<< HEAD
                 window.location="http://127.0.0.1:5500/formulario.html?#";
+=======
+                window.location="http://127.0.0.1:5500/mainUsuario.html";
+>>>>>>> dde1f623f7ab0cfe0e911323a11b773b5fc78fed
             });
         
     } 
@@ -103,4 +110,11 @@ const validateForm = () => {
         alert('Valor invalido en ' + form1[valid].name)
         // alert('Hay un valor invalido en el formulario')
     }
+<<<<<<< HEAD
 }
+=======
+}
+
+
+
+>>>>>>> dde1f623f7ab0cfe0e911323a11b773b5fc78fed

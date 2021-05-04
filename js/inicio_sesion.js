@@ -1,5 +1,6 @@
 const nombre_usuario=document.getElementById('first-name');
 const password=document.getElementById('password');
+<<<<<<< HEAD
 const enviando=document.getElementById('enviando');
 
 function setCookie(cname, cvalue, exdays) {
@@ -23,6 +24,8 @@ function deleteCookie(name) {
 //     setCookie("usuario", nombre_usuario.value, 5)
 //     setCookie("contraseña", password.value, 5)
 // })
+=======
+>>>>>>> dde1f623f7ab0cfe0e911323a11b773b5fc78fed
 
 function login() {
     fetch('http://localhost:9090/usuario')
@@ -40,11 +43,18 @@ function login() {
                 }
             }
         }
+<<<<<<< HEAD
         if(valor==2){
             console.log("inicio sesion")
             window.location="http://127.0.0.1:5500/mainUsuario.html";
             setCookie("usuario", nombre_usuario.value, 5)
             setCookie("contraseña", password.value, 5)
+=======
+
+        if(valor==2){
+            console.log("inicio sesion")
+            window.location="http://127.0.0.1:5500/mainUsuario.html";
+>>>>>>> dde1f623f7ab0cfe0e911323a11b773b5fc78fed
         }
         else if(valor==1){
             alert("contraseña incorrecta")
@@ -54,5 +64,8 @@ function login() {
         }
     })
     .catch(err=> console.log(`error: ${err.status}`))
+<<<<<<< HEAD
     console.log(usuario)
+=======
+>>>>>>> dde1f623f7ab0cfe0e911323a11b773b5fc78fed
 }

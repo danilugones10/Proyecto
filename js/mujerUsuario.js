@@ -11,7 +11,11 @@ fetch('http://localhost:8080/producto/2')
             const div=document.createElement('div')
             const cabezera = document.createElement('h5')
             const cuerpo =document.createElement('p')
+<<<<<<< HEAD
             const img=document.createElement('img');img.width=200;img.height=200;
+=======
+            const img=document.createElement('img')
+>>>>>>> dde1f623f7ab0cfe0e911323a11b773b5fc78fed
             const precio=document.createElement('p')
             const boton =document.createElement('button')
             cabezera.textContent = `${data[i].nombre_producto}`
