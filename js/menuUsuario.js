@@ -7,14 +7,14 @@ const fragment=document.createDocumentFragment();
 
 const bot=document.createElement('div');
 bot.id="oscuro";
-bot.className=""
+bot.className="";
 bot.innerHTML='<i class="bi bi-toggle-on"></i>';
 nav.appendChild(bot);
 
 const li0=document.createElement('li');
 li0.className="menu__item";
 const a0=document.createElement('a');
-a0.href="main.html";
+a0.href="mainUsuario.html";
 a0.textContent="Principal";
 li0.appendChild(a0)
 fragment.appendChild(li0);
@@ -22,7 +22,7 @@ fragment.appendChild(li0);
 const li=document.createElement('li');
 li.className="menu__item";
 const a=document.createElement('a');
-a.href="hombre.html";
+a.href="hombreUsuario.html";
 a.textContent="Hombre";
 li.appendChild(a)
 fragment.appendChild(li);
@@ -30,7 +30,7 @@ fragment.appendChild(li);
 const li2=document.createElement('li');
 li2.className="menu__item";
 const a2=document.createElement('a');
-a2.href="mujer.html";
+a2.href="mujerUsuario.html";
 a2.textContent="Mujer";
 li2.appendChild(a2)
 fragment.appendChild(li2);
@@ -38,7 +38,7 @@ fragment.appendChild(li2);
 const li3=document.createElement('li');
 li3.className="menu__item";
 const a3=document.createElement('a');
-a3.href="contacto.html";
+a3.href="contactoUsuario.html";
 a3.textContent="Contacto";
 li3.appendChild(a3);
 fragment.appendChild(li3);
@@ -46,26 +46,29 @@ fragment.appendChild(li3);
 const li4=document.createElement('li');
 li4.className="menu__item";
 const a4=document.createElement('a');
-a4.href="info.html";
+a4.href="infoUsuario.html";
 a4.textContent="Info";
 li4.appendChild(a4)
 fragment.appendChild(li4);
-
-// const li5=document.createElement('input');
-// li5.setAttribute('placeholder', ' buscar');
-// li5.className="busqueda";
-// li5.id="busqueda";
-// fragment.appendChild(li5);
 
 const li6=document.createElement('li');
 const button6=document.createElement('button');
 button6.className="inicio";
 const a6=document.createElement('a');
-a6.href="formulario.html?#";
-a6.textContent="Iniciar Sesion";
+a6.href="main.html";
+a6.textContent="Cerrar Sesion";
 button6.appendChild(a6);
 li6.appendChild(button6);
 fragment.appendChild(button6);
+
+const li5=document.createElement('div');
+const a5=document.createElement('a');
+a5.innerHTML='<i class="bi bi-bag"></i>';
+li5.className="carrito";
+li5.id="carrito";
+a5.href="carrito.html";
+li5.appendChild(a5);
+fragment.appendChild(li5);
 
 const hamb=document.createElement('label');
 hamb.innerHTML="<span>&#9776;</span>";

@@ -11,3 +11,18 @@ th{
 td{
     color: var(--texto);
 }
+#cajilla{
+    margin: auto;
+    width: 95vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.sudaderasHombre{
+    text-align: center;
+    width: 300px;
+    background-color: var(--base);
+    border: 1px solid var(--texto);
+    margin: 15px;
+    padding: 5px;
+}
