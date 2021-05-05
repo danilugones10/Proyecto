@@ -7,7 +7,15 @@ const fragment=document.createDocumentFragment();
 
 const bot=document.createElement('div');
 bot.id="oscuro";
+<<<<<<< HEAD
 bot.className="";
+=======
+<<<<<<< HEAD
+bot.className="";
+=======
+bot.className=""
+>>>>>>> dde1f623f7ab0cfe0e911323a11b773b5fc78fed
+>>>>>>> 4736ed7bcc79daefb2fb5c6907483cf60de85bfe
 bot.innerHTML='<i class="bi bi-toggle-on"></i>';
 nav.appendChild(bot);
 
@@ -22,7 +30,11 @@ fragment.appendChild(li0);
 const li=document.createElement('li');
 li.className="menu__item";
 const a=document.createElement('a');
+<<<<<<< HEAD
 a.href="hombre.html";
+=======
+a.href="hombreUsuario.html";
+>>>>>>> 4736ed7bcc79daefb2fb5c6907483cf60de85bfe
 a.textContent="Hombre";
 li.appendChild(a)
 fragment.appendChild(li);
@@ -61,6 +73,7 @@ button6.appendChild(a6);
 li6.appendChild(button6);
 fragment.appendChild(button6);
 
+<<<<<<< HEAD
 const li7=document.createElement('li');
 li7.id="sesion";
 li7.style.display="block";
@@ -68,12 +81,24 @@ li7.style.display="block";
 fragment.appendChild(li7);
 
 const li5=document.createElement('div');
+=======
+const li5=document.createElement('div');
+<<<<<<< HEAD
+>>>>>>> 4736ed7bcc79daefb2fb5c6907483cf60de85bfe
 const a5=document.createElement('a');
 a5.innerHTML='<i class="bi bi-bag"></i>';
 li5.className="carrito";
 li5.id="carrito";
 a5.href="carrito.html";
 li5.appendChild(a5);
+<<<<<<< HEAD
+=======
+=======
+li5.innerHTML='<i class="bi bi-bag"></i>';
+li5.className="carrito";
+li5.id="carrito";
+>>>>>>> dde1f623f7ab0cfe0e911323a11b773b5fc78fed
+>>>>>>> 4736ed7bcc79daefb2fb5c6907483cf60de85bfe
 fragment.appendChild(li5);
 
 const hamb=document.createElement('label');
@@ -135,6 +160,7 @@ const main=document.querySelector('.main');
             li3.style.visibility="hidden";
             li4.style.visibility="hidden";
         }
+<<<<<<< HEAD
      })
 
     function getCookie(cname) {
@@ -177,3 +203,6 @@ const main=document.querySelector('.main');
         deleteCookie('usuario');
         deleteCookie('contraseña');
     })
+=======
+     })
+>>>>>>> 4736ed7bcc79daefb2fb5c6907483cf60de85bfe

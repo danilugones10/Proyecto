@@ -51,10 +51,18 @@ a4.textContent="Info";
 li4.appendChild(a4)
 fragment.appendChild(li4);
 
+<<<<<<< HEAD
 const li7=document.createElement('li');
 li7.id="sesion";
 // li7.textContent=0;
 fragment.appendChild(li7);
+=======
+// const li5=document.createElement('input');
+// li5.setAttribute('placeholder', ' buscar');
+// li5.className="busqueda";
+// li5.id="busqueda";
+// fragment.appendChild(li5);
+>>>>>>> 4736ed7bcc79daefb2fb5c6907483cf60de85bfe
 
 const li6=document.createElement('li');
 const button6=document.createElement('button');
