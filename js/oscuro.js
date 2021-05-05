@@ -46,7 +46,7 @@
 
 let darkMode = localStorage.getItem('darkMode');
 
-const boton = document.getElementById('oscuro');
+const O = document.getElementById('oscuro');
 
 const enableDarkMode = () => {
     // 1. Add the class to the body
@@ -69,7 +69,7 @@ const enableDarkMode = () => {
   }
 
 
-boton.addEventListener('click', () => {
+O.addEventListener('click', () => {
       // get their darkMode setting
         darkMode = localStorage.getItem('darkMode'); 
 
@@ -80,6 +80,5 @@ boton.addEventListener('click', () => {
         // if it has been enabled, turn it off
         } else {
             disableDarkMode(); 
-
         }
 })

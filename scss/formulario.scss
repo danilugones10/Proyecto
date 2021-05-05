@@ -32,6 +32,9 @@ body{
 h1{
     color: var(--texto);
 }
+li{
+    margin-top: 10px;
+}
 label{
     color: var(--texto);font-size: 18px;
 }
@@ -47,14 +50,11 @@ label{
 #first-name{
     width: 200px;margin: 3px;
 }
-#email{
-    width: 300px;margin: 3px;
-}
 #password{
     width: 300px;margin: 3px;
 }
 .bot{
-    background-color: var(--nav);width: 150px;height:40px;color: var(--texto);border-radius: 20px;margin-top: 10px;
+    background-color: var(--nav);width: 150px;height:40px;color: var(--texto);border-radius: 20px;margin-top: 25px;
 }
 .bot:hover{
     background-color: brown;

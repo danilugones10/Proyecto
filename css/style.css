@@ -46,27 +46,36 @@ a {
   color: var(--texto);
 }
 
-.busqueda {
-  display: none;
+.carrito {
   position: absolute;
-  width: 20%;
-  right: 185px;
-  top: 25px;
+  right: 15px;
+  top: 20px;
   height: 25px;
-  border-radius: 10px;
-  outline: none;
 }
 
 .inicio {
   position: absolute;
   top: 20px;
-  right: 35px;
+  right: 55px;
   background-color: var(--base);
   border: 1px solid white;
   padding: 5px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 .inicio a {
+  text-decoration: none;
+}
+
+.cierre {
+  position: absolute;
+  top: 20px;
+  right: 55px;
+  background-color: var(--base);
+  border: 1px solid white;
+  padding: 5px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.cierre a {
   text-decoration: none;
 }
 
@@ -94,6 +103,10 @@ a {
 }
 
 @media (max-width: 767px) {
+  .header {
+    height: 75px;
+  }
+
   .menu {
     background-color: var(--nav);
     height: 75px;
@@ -117,12 +130,10 @@ a {
     width: 100px;
   }
 
-  .busqueda {
-    display: block;
+  .carrito {
     position: absolute;
-    width: 35%;
     right: 200px;
-    top: 25px;
+    top: 21px;
     height: 25px;
     border-radius: 20px;
   }
@@ -136,6 +147,18 @@ a {
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   }
   .inicio a {
+    text-decoration: none;
+  }
+
+  .cierre {
+    position: absolute;
+    top: 20px;
+    right: 35px;
+    border: 1px solid white;
+    padding: 5px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  .cierre a {
     text-decoration: none;
   }
 
@@ -470,6 +493,23 @@ td {
   color: var(--texto);
 }
 
+#cajilla {
+  margin: auto;
+  width: 95vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.sudaderasHombre {
+  text-align: center;
+  width: 300px;
+  background-color: var(--base);
+  border: 1px solid var(--texto);
+  margin: 15px;
+  padding: 5px;
+}
+
 .carrouselMujer {
   max-width: 500px;
   margin: auto;
@@ -482,6 +522,23 @@ td {
 
 .carousel-control-next-icon {
   background-color: black;
+}
+
+#cajilla {
+  margin: auto;
+  width: 95vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.sudaderasMujer {
+  text-align: center;
+  width: 300px;
+  background-color: var(--base);
+  border: 1px solid var(--texto);
+  margin: 15px;
+  padding: 5px;
 }
 
 * {
@@ -502,7 +559,7 @@ td {
 body {
   display: grid;
   grid-template-columns: 100%;
-  grid-template-rows: 100px auto 200px;
+  grid-template-rows: 75px auto 200px;
   background-image: url(img/sudadera_fondo.jpg);
 }
 
