@@ -9,6 +9,19 @@ const edad=document.getElementById('inputEdad');
 const rol=document.getElementById('inputRol');
 const botons=document.getElementById('formBoton');
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 4736ed7bcc79daefb2fb5c6907483cf60de85bfe
+>>>>>>> 5915cffaf3c4a8289550ec6241cf22fd2e9c11d5
+>>>>>>> 09f56fe363ddb2ff6719a70c967bc3f2c4ed6e2b
+>>>>>>> 786f65223aba70b6c6100c9e056a72ab0d0b6649
 function setCookie(cname, cvalue, exdays) {
     var d = new Date();
     d.setTime(d.getTime() + (exdays*24*60*60*1000));
@@ -16,6 +29,20 @@ function setCookie(cname, cvalue, exdays) {
     document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> dde1f623f7ab0cfe0e911323a11b773b5fc78fed
+>>>>>>> 4736ed7bcc79daefb2fb5c6907483cf60de85bfe
+>>>>>>> 5915cffaf3c4a8289550ec6241cf22fd2e9c11d5
+>>>>>>> 09f56fe363ddb2ff6719a70c967bc3f2c4ed6e2b
+>>>>>>> 786f65223aba70b6c6100c9e056a72ab0d0b6649
 const formIsValidd = {
     email: false,
     password: false,
@@ -39,6 +66,13 @@ nombre.addEventListener('change', (e) => {
 email.addEventListener('change', (e) => {
     const regEx = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/
     if (regEx.test(email.value)==true) {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 09f56fe363ddb2ff6719a70c967bc3f2c4ed6e2b
+>>>>>>> 786f65223aba70b6c6100c9e056a72ab0d0b6649
         let coincide=0
         fetch('http://localhost:8080/usuariosCopia-0.0.1-SNAPSHOT/usuario')
         .then(res => res.json())
@@ -59,6 +93,15 @@ email.addEventListener('change', (e) => {
             formIsValidd.email = true
         }
         })
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+        formIsValidd.email=true
+>>>>>>> 5915cffaf3c4a8289550ec6241cf22fd2e9c11d5
+>>>>>>> 09f56fe363ddb2ff6719a70c967bc3f2c4ed6e2b
+>>>>>>> 786f65223aba70b6c6100c9e056a72ab0d0b6649
     }
 })
 password.addEventListener('change', (e) => {
@@ -73,6 +116,13 @@ apellido.addEventListener('change', (e) => {
 })
 usuario.addEventListener('change', (e) => {
     if((e.target.value.trim().length > 2)&&(e.target.value.trim().length < 20)){
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 09f56fe363ddb2ff6719a70c967bc3f2c4ed6e2b
+>>>>>>> 786f65223aba70b6c6100c9e056a72ab0d0b6649
         let coincide=0
         fetch('http://localhost:8080/usuariosCopia-0.0.1-SNAPSHOT/usuario')
         .then(res => res.json())
@@ -94,6 +144,15 @@ usuario.addEventListener('change', (e) => {
         }
         })
         .catch(err=> console.log(`error: ${err.status}`))
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+        formIsValidd.usuario = true
+>>>>>>> 5915cffaf3c4a8289550ec6241cf22fd2e9c11d5
+>>>>>>> 09f56fe363ddb2ff6719a70c967bc3f2c4ed6e2b
+>>>>>>> 786f65223aba70b6c6100c9e056a72ab0d0b6649
     }
 })
 
@@ -122,7 +181,19 @@ const validateForm = () => {
             rol: rol.value
         };
     
+<<<<<<< HEAD
             fetch('http://localhost:8080/usuariosCopia-0.0.1-SNAPSHOT/user', {
+=======
+<<<<<<< HEAD
+            fetch('http://localhost:8080/usuariosCopia-0.0.1-SNAPSHOT/user', {
+=======
+<<<<<<< HEAD
+            fetch('http://localhost:8080/usuariosCopia-0.0.1-SNAPSHOT/user', {
+=======
+            fetch('http://localhost:9090/user', {
+>>>>>>> 5915cffaf3c4a8289550ec6241cf22fd2e9c11d5
+>>>>>>> 09f56fe363ddb2ff6719a70c967bc3f2c4ed6e2b
+>>>>>>> 786f65223aba70b6c6100c9e056a72ab0d0b6649
                 method: 'POST',
                 headers: {
                     "Content-Type": "application/json",
@@ -132,7 +203,27 @@ const validateForm = () => {
             .then(res => res.json())
             .then(res=> {
                 console.log(res);
+<<<<<<< HEAD
                 window.location="http://127.0.0.1:5500/formulario.html?#";
+=======
+<<<<<<< HEAD
+                window.location="http://127.0.0.1:5500/formulario.html?#";
+=======
+<<<<<<< HEAD
+                window.location="http://127.0.0.1:5500/formulario.html?#";
+=======
+<<<<<<< HEAD
+                window.location="http://127.0.0.1:5500/formulario.html?#";
+=======
+<<<<<<< HEAD
+                window.location="http://127.0.0.1:5500/formulario.html?#";
+=======
+                window.location="http://127.0.0.1:5500/mainUsuario.html";
+>>>>>>> dde1f623f7ab0cfe0e911323a11b773b5fc78fed
+>>>>>>> 4736ed7bcc79daefb2fb5c6907483cf60de85bfe
+>>>>>>> 5915cffaf3c4a8289550ec6241cf22fd2e9c11d5
+>>>>>>> 09f56fe363ddb2ff6719a70c967bc3f2c4ed6e2b
+>>>>>>> 786f65223aba70b6c6100c9e056a72ab0d0b6649
             });
         
     } 
@@ -142,4 +233,27 @@ const validateForm = () => {
         alert('Valor invalido en ' + form1[valid].name)
         // alert('Hay un valor invalido en el formulario')
     }
+<<<<<<< HEAD
 }
+=======
+<<<<<<< HEAD
+}
+=======
+<<<<<<< HEAD
+}
+=======
+<<<<<<< HEAD
+}
+=======
+<<<<<<< HEAD
+}
+=======
+}
+
+
+
+>>>>>>> dde1f623f7ab0cfe0e911323a11b773b5fc78fed
+>>>>>>> 4736ed7bcc79daefb2fb5c6907483cf60de85bfe
+>>>>>>> 5915cffaf3c4a8289550ec6241cf22fd2e9c11d5
+>>>>>>> 09f56fe363ddb2ff6719a70c967bc3f2c4ed6e2b
+>>>>>>> 786f65223aba70b6c6100c9e056a72ab0d0b6649
