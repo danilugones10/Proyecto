@@ -49,6 +49,10 @@ h1 {
   color: var(--texto);
 }
 
+li {
+  margin-top: 10px;
+}
+
 label {
   color: var(--texto);
   font-size: 18px;
@@ -73,11 +77,6 @@ label {
   margin: 3px;
 }
 
-#email {
-  width: 300px;
-  margin: 3px;
-}
-
 #password {
   width: 300px;
   margin: 3px;
@@ -89,7 +88,7 @@ label {
   height: 40px;
   color: var(--texto);
   border-radius: 20px;
-  margin-top: 10px;
+  margin-top: 25px;
 }
 
 .bot:hover {
